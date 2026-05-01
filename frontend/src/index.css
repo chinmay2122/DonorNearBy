@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4bcc4;
+  color: #711220;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.gradient-primary {
+  background: linear-gradient(135deg, #db233e 0%, #711220 100%);
+}
+
+.card-shadow {
+  @apply shadow-lg transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1;
+}
+
+.theme-surface {
+  background: #ffffff;
+}
+
+.theme-muted-surface {
+  background: #f4bcc4;
+}

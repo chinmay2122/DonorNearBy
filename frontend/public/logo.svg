@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="DonorNearBy logo">
+  <defs>
+    <radialGradient id="pinRed" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#c91c1c"/>
+      <stop offset="100%" stop-color="#a30000"/>
+    </radialGradient>
+    <radialGradient id="dropRed" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#c91c1c"/>
+      <stop offset="100%" stop-color="#961414"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="128" cy="230" rx="46" ry="11" fill="none" stroke="#3a1a1a" stroke-width="4" opacity="0.85"/>
+
+  <path d="M128 26c-33.2 0-60 26.8-60 60c0 22.2 11.6 40.4 26.4 58.4L128 196l33.6-51.6C176.4 126.4 188 108.2 188 86c0-33.2-26.8-60-60-60z"
+        fill="url(#pinRed)" stroke="#961414" stroke-width="4"/>
+
+  <circle cx="128" cy="87" r="33" fill="#f2f2f2" stroke="#3a1a1a" stroke-width="4"/>
+  <path d="M128 61c-8.8 12.7-16 22.4-16 31a16 16 0 1 0 32 0c0-8.6-7.2-18.3-16-31z"
+        fill="url(#dropRed)" stroke="#3a1a1a" stroke-width="3"/>
+
+  <rect x="123" y="144" width="10" height="31" rx="3" fill="#f2f2f2"/>
+  <rect x="112" y="154" width="31" height="10" rx="3" fill="#f2f2f2"/>
+</svg>
